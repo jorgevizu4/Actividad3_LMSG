@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenido">
+        <header class="encabezado">
+            <h1>Acaramhelados</h1>
+            <img src="img/acaramhelados.png" alt="Logo">
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="" target="_blank">Noticias</a></li>
+                <li><a href="" target="_blank">Quiénes somos</a></li>
+                <li><a href="" target="_blank">Publicaciones</a></li>
+                <li><a href="" target="_blank">Áreas de actuación</a></li>
+                <li><a href="" target="_blank">Localización</a></li>
+                <li><a href="index.html" target="_blank">Home</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="form">
+                <h3>Formulario de contacto</h3>
+                <form action="mailto:jorge.vizuete.mendez@gmail.com" autocomplete="on"> 
+                    <div class="input">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="input">
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com" required>
+                    </div>
+                    <div class="textarea">
+                        <label for="msj">Mensaje</label>
+                        <textarea name="msj" id="msj" placeholder="Escribe aquí tu mensaje."></textarea>
+                    </div>
+                    <div class="input" id="botones">
+                        <button type="submit" value="Enviar">Enviar</button>
+                        <button type="reset" value="Borrar">Borrar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>&copy;Acaramhelados SL</p>
+            <ul>
+                <li>Tlf: 916 290 080</li>
+                <li>
+                    <a href="mailto:info@acaramhelados.com" target="_blank">
+                        <img src="img/gmail.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/acaramhelados" target="_blank">
+                        <img src="img/facebook_icon.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/acaram.helados/#" target="_blank">
+                        <img src="img/instagram logo_icon.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
